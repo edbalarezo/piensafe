@@ -1,12 +1,12 @@
 import { useParams } from "react-router-dom";
 
 function Profesor(){
-    const { id_alumno } = useParams()
-    console.log('id_alumno ... '+id_alumno)
+    const { id } = useParams()
+    console.log('id_alumno ... '+id)
 
     return (
         <p>
-            Pagina individual de: .. {id_alumno}
+            Pagina individual de: .. {id}
         </p>
     )
 }

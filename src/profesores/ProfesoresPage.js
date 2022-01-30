@@ -1,4 +1,4 @@
-function ProfesoresPage(props){
+function AlumnoPage(props){
     return(
         <p>
             Pagina de Profesores ...
@@ -6,4 +6,4 @@ function ProfesoresPage(props){
     )
 }
 
-export default ProfesoresPage
+export default AlumnoPage
