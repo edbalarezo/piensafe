@@ -21,7 +21,7 @@ const createAlumno = async (alumno) => {
             'Content-type': 'application/json'
         }
     });
-    return await resp.json
+    return await resp.json();
 }
 
 const updateAlumno = async (alumno) => {
@@ -33,6 +33,7 @@ const updateAlumno = async (alumno) => {
             'Content-type': 'application/json'
         }
     });
+    return await resp.json();
 }
 
 export {

@@ -46,7 +46,7 @@ function AlumnoCreate() {
         <form onSubmit={onSubmit}>
           <label>
             Nombre
-            <input 
+            <input className="datos"
               name="nombre"
               value={nombre}
               onChange={onChange}
@@ -54,7 +54,7 @@ function AlumnoCreate() {
           </label>
           <label>
             Apellido1
-            <input 
+            <input className="datos"
               name="apellido1"
               value={apellido1}
               onChange={onChange}
@@ -62,7 +62,7 @@ function AlumnoCreate() {
           </label>
           <label>
             apellido2
-            <input 
+            <input className="datos"
               name="apellido2"
               value={apellido2}
               onChange={onChange}
@@ -70,7 +70,7 @@ function AlumnoCreate() {
           </label>
           <label>
             Discapacidad Fisica
-            <input 
+            <input className="datos"
               name="discapacidad_fisica"
               value={discapacidad_fisica}
               onChange={onChange}
@@ -78,7 +78,7 @@ function AlumnoCreate() {
           </label>
           <label>
             Telefono
-            <input 
+            <input className="datos"
               name="telefono"
               value={telefono}
               onChange={onChange}

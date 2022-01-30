@@ -11,6 +11,8 @@ return(
         <td> {props.itemAlumno.apellido2} </td>
         <td>{props.itemAlumno.discapacidad_fisica}</td>        
         <td> {props.itemAlumno.telefono} </td>
+        <td><Link to={`/updatealumno/${props.itemAlumno.id}`}>Edit</Link></td>
+
     </tr>
 );
 

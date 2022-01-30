@@ -5,8 +5,8 @@ function AlumnoList(props){
           <tr>
             <th >Id</th>
             <th>Nombre</th>
-            <th>Apellido1</th>
-            <th>Apellido2</th>
+            <th>Primer Apellido</th>
+            <th>Segundo Apellido</th>
             <th>Discapacidad Física</th>
             <th>Teléfono</th>
             <th>Acciones</th>
