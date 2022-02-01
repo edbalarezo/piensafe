@@ -17,15 +17,15 @@ function UsuarioPage() {
         <Link to='/createusuarios' >
           Crear
         </Link>
-        <UsuarioList>
+  
+        <UsuariosList>
           {
-            usuario.map(item =>
-              <Usuario   
-                key={item.id}
-                itemUsuario={item} />
+            usuario.map(usuarios =>
+              <Usuarios   
+                key={usuarios.id} id={usuarios.id} username={usuarios.username} password={usuarios.password} status={usuarios.status}/>
             )
           }
-        </UsuarioList>
+        </UsuariosList>
       </div>
     );
   }
