@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import AlumnoList from "./AlumnoList";
 import Alumno from "./Alumno";
 import { getListAlumno } from './service/AlumnoService'
-import './App.css'
 
 function AlumnoPage() {
 

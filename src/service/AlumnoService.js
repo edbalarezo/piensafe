@@ -26,7 +26,7 @@ const createAlumno = async (alumno) => {
 
 const updateAlumno = async (alumno) => {
 
-    const resp = await fetch(`${urlCrud}/teachers`, {
+    const resp = await fetch(`${urlCrud}/cards`, {
         method: 'PUT',
         body: JSON.stringify(alumno),
         headers: {

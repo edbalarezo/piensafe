@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { createAlumno } from './service/AlumnoService'
 
+
 function AlumnoCreate() {
 
     const [nombre, setNombre] = useState('');
