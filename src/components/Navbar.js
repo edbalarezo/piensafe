@@ -15,6 +15,12 @@ export default function Navbar(){
                 Profesores
             </NavLink>
            </li>
+
+           <li>
+           <NavLink to={"/usuarios"} className={"navlink"}>
+                Usuarios 
+            </NavLink>
+           </li>
     
         </ul>
     );

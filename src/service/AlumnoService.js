@@ -6,6 +6,12 @@ const getListAlumno = async () => {
     return  data;
 }
 
+const getListUsuario = async () => {
+    const response = await fetch(`${urlCrud}/cards/`);    
+    const data = await response.json();
+    return  data;
+}
+
 const findByIdAlumno = async (alumnoId) => {
     const response = await fetch(`${urlCrud}/cards/${alumnoId}`);
     const data = await response.json();
@@ -40,5 +46,6 @@ export {
     getListAlumno,
     createAlumno,
     updateAlumno,
-    findByIdAlumno
+    findByIdAlumno,
+    getListUsuario
 }
