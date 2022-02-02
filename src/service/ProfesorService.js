@@ -1,28 +1,24 @@
 const urlCrud = 'http://localhost:3001';
 
-const getListAlumno = async () => {
+const getListprofesor = async () => {
     const response = await fetch(`${urlCrud}/cards/`);    
     const data = await response.json();
+    console.log(data)
     return  data;
 }
 
-const getListUsuario = async () => {
+const getListusuario = async () => {
     const response = await fetch(`${urlCrud}/cards/`);    
     const data = await response.json();
+    console.log(data)
     return  data;
 }
 
-const findByIdAlumno = async (alumnoId) => {
-    const response = await fetch(`${urlCrud}/cards/${alumnoId}`);
-    const data = await response.json();
-    return data;
-}
- 
-const createAlumno = async (alumno) => {
-  
-    const resp = await fetch(`${urlCrud}/cards`,{
+const createprofesor = async (profesor) => {
+    console.log(profesor) 
+    const resp = await fetch(`${urlCrud}/cards`, {
         method: 'POST',
-        body: JSON.stringify(alumno),
+        body: JSON.stringify(profesor),
         headers: {
             'Content-type': 'application/json'
         }
@@ -30,11 +26,11 @@ const createAlumno = async (alumno) => {
     return await resp.json();
 }
 
-const updateAlumno = async (alumno) => {
-
+const createusuario = async (usuario) => {
+    console.log(usuario) 
     const resp = await fetch(`${urlCrud}/cards`, {
-        method: 'PUT',
-        body: JSON.stringify(alumno),
+        method: 'POST',
+        body: JSON.stringify(usuario),
         headers: {
             'Content-type': 'application/json'
         }
@@ -43,9 +39,8 @@ const updateAlumno = async (alumno) => {
 }
 
 export {
-    getListAlumno,
-    createAlumno,
-    updateAlumno,
-    findByIdAlumno,
-    getListUsuario
+    getListprofesor,
+    createprofesor,
+    getListusuario,
+    createusuario
 }
