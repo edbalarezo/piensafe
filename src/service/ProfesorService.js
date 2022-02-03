@@ -8,7 +8,7 @@ const getListprofesor = async () => {
 }
 
 const getListusuario = async () => {
-    const response = await fetch(`${urlCrud}/cards/`);    
+    const response = await fetch(`${urlCrud}/usuario/`);    
     const data = await response.json();
     console.log(data)
     return  data;
@@ -28,7 +28,7 @@ const createprofesor = async (profesor) => {
 
 const createusuario = async (usuario) => {
     console.log(usuario) 
-    const resp = await fetch(`${urlCrud}/cards`, {
+    const resp = await fetch(`${urlCrud}/usuarios`, {
         method: 'POST',
         body: JSON.stringify(usuario),
         headers: {

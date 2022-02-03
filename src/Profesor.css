@@ -16,7 +16,7 @@
 .titulo3{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
-    background-color: #68c3b0;
+    background-color: #f5ff9b;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -39,15 +39,24 @@ table{
 }
 
 th {  
-    border-bottom: 5px solid rgb(165, 155, 165);    
+    border-bottom: 5px solid rgb(167, 156, 167);    
     padding: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
-    background-color: #68c3b0;
-    color: rgb(26, 10, 10);
+    background-color: #c1c3e0;
+    color: rgb(10, 24, 26);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
-thead {background-color: rgb(89, 194, 255);}
+thead {background-color: rgb(89, 100, 255);}
+
+.tabla2{
+        margin: 20px 30px 175px 435px;
+        list-style: none;
+    }  
+
+.x{
+    background-color: rgb(255, 159, 159);
+}

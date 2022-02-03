@@ -3,10 +3,10 @@ function ProfesorList(props){
         <table>
     <thead >
       <tr>
-        <th >Id</th>
-        <th>Nombres</th>
-        <th>Apellidos</th>
-        <th>Numero de teléfono</th>
+        <th className="x"  >Id</th>
+        <th className="x" >Nombres</th>
+        <th className="x" >Apellidos</th>
+        <th className="x" >Numero de teléfono</th>
       </tr>
     </thead>
     <tbody>

@@ -1,12 +1,12 @@
 function UsuarioList(props){
     return ( 
-        <table>
+        <table className="tabla2">
     <thead >
       <tr>
-        <th >Id</th>
-        <th>Username</th>
-        <th>Password</th>
-        <th>Status</th>
+        <th className="x" >Id</th>
+        <th className="x" >Username</th>
+        <th className="x" >Password</th>
+        <th className="x" >Status</th>
       </tr>
     </thead>
     <tbody>

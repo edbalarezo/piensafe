@@ -19,7 +19,7 @@ function ProfesorPage() {
         <div>
             <h2 className="titulo2"> PROFESORES REGISTRADOS DE LA "UNAE</h2>
             <Link to ='/createprofesor'>
-            <h2 className="registrar"> crear </h2>   
+            <h2 className="registrar"> Crear </h2>   
             </Link>
 
         <ProfesorList>
